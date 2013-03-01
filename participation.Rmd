@@ -1,0 +1,9 @@
+```{r blah}
+
+print(sample.probabilities)
+#print(summary(logit.alternative))
+#print(anova(logit.alternative, logit.null))
+print(summary(ols.alternative))
+print(anova(ols.alternative, ols.null))
+
+```

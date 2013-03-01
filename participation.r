@@ -1,4 +1,4 @@
-
+library(plyr)
 # [27,] "A4c_PBCbarriers"    
 # 
 # [28,] "A4c_1.financial"    
@@ -16,7 +16,7 @@
 # [40,] "A4c_12.explain"    
 # 
 # [59,] "A8.ATTEND_YN"       
-# [60,] "A8.DESIRE"          
+# [60,] "A8.negative.perception"          
 # [61,] "A8.attend"          
 # [62,] "A8.explain"   
 
@@ -29,13 +29,27 @@ not.participate <- subset(all, A8.ATTEND_YN == 0)
 # New variables
 o <- data.frame(
   has.barrier = not.participate$A4c_PBCbarriers > 0,
-  hell.no     = not.participate$A8.attend == 3,
-  has.desire  = rowSums(not.participate[c('A7c_1.ineffective', 'A7c_2.noconcern', 'A7c_3.unfocused', 'A7c_4.disruptive', 'A7c_5.other')]) == 0
+  no.never     = not.participate$A8.attend == 3,
+  has.negative.perception  = rowSums(not.participate[c('A7c_1.ineffective', 'A7c_2.noconcern', 'A7c_3.unfocused', 'A7c_4.disruptive', 'A7c_5.other')]) > 0
 )
 
-crosstabs <- ddply(o, names(o), nrow)
-names(crosstabs)[4] <- 'count'
+sample.probabilities <- ddply(o, c('has.barrier', 'no.never'),
+                   function(df) {
+                       c(p.no.never = paste(100 * round(mean(df$has.negative.perception), 3), '%', sep = ''))
+                   })
 
-m <- glm(hell.no ~ has.barrier * has.desire, family = 'binomial', data = o)
+# Logistic regression
+logit.alternative <- glm(no.never ~ has.barrier * has.negative.perception,
+                         family = 'binomial', data = o)
+logit.null        <- glm(no.never ~ has.negative.perception,
+                         family = 'binomial', data = o)
+#print(summary(logit.alternative))
+#print(anova(logit.alternative, logit.null))
 
-print(summary(m))
+# Ordinary least square regression
+ols.alternative <- lm(no.never ~ has.barrier * has.negative.perception, data = o)
+ols.null        <- lm(no.never ~ has.negative.perception, data = o)
+
+print(summary(ols.alternative))
+print(anova(ols.alternative, ols.null))
+

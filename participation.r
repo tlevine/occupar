@@ -1,4 +1,5 @@
 library(plyr)
+library(knitr)
 all <- read.csv('occuPARcleandata.csv')
 
 # Only not participate
@@ -25,10 +26,4 @@ logit.null        <- glm(no.never ~ has.negative.perception,
 # Ordinary least square regression
 ols.alternative <- lm(no.never ~ has.barrier * has.negative.perception, data = o)
 ols.null        <- lm(no.never ~ has.negative.perception, data = o)
-
-print(sample.probabilities)
-#print(summary(logit.alternative))
-#print(anova(logit.alternative, logit.null))
-print(summary(ols.alternative))
-print(anova(ols.alternative, ols.null))
 

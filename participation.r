@@ -29,6 +29,8 @@ not.participate <- subset(all, A8.ATTEND_YN == 0)
 # New variables
 o <- data.frame(
   has.barrier = not.participate$A4c_PBCbarriers > 0,
-  hell.no     = not.participate$A8.attend == 3
+  hell.no     = not.participate$A8.attend == 3,
+  negativeness= rowSums(not.participate[c('A7c_1.ineffective', 'A7c_2.noconcern', 'A7c_3.unfocused', 'A7c_4.disruptive', 'A7c_5.other')])
 )
-table(o)
+m <- glm(hell.no ~ has.barrier * negativeness, family = 'binomial', data = o)
+print(summary(m))

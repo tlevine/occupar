@@ -41,4 +41,4 @@ ols.test <- anova(ols.null, ols.alt)
 
 # Print out results
 library(knitr)
-knit('participation.Rmd')
+knit('participation.Rmd', output = 'readme.md')

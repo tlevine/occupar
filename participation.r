@@ -1,5 +1,5 @@
 library(plyr)
-library(knitr)
+library(epicalc)
 all <- read.csv('occuPARcleandata.csv')
 
 # Only not participate
@@ -12,18 +12,24 @@ o <- data.frame(
   has.negative.perception  = rowSums(not.participate[c('A7c_1.ineffective', 'A7c_2.noconcern', 'A7c_3.unfocused', 'A7c_4.disruptive', 'A7c_5.other')]) > 0
 )
 
-sample.probabilities <- ddply(o, c('has.barrier', 'has.negative.perception'),
-                   function(df) {
-                       c(p.no.never = paste(100 * round(mean(df$no.never), 3), '%', sep = ''))
-                   })
+# A summary
+sample.probabilities <- ddply(
+  o,
+  c('has.barrier', 'has.negative.perception'),
+  function(df) { c(p.no.never = paste(100 * round(mean(df$no.never), 3), '%', sep = '')) }
+)
 
 # Logistic regression
-logit.alternative <- glm(no.never ~ has.barrier * has.negative.perception,
+logit.alt  <- glm(no.never ~ has.barrier * has.negative.perception,
                          family = 'binomial', data = o)
-logit.null        <- glm(no.never ~ has.negative.perception,
+logit.null <- glm(no.never ~ has.negative.perception,
                          family = 'binomial', data = o)
+logit.test <- lrtest(logit.null, logit.alt)
 
 # Ordinary least square regression
-ols.alternative <- lm(no.never ~ has.barrier * has.negative.perception, data = o)
-ols.null        <- lm(no.never ~ has.negative.perception, data = o)
+ols.alt  <- lm(no.never ~ has.barrier * has.negative.perception, data = o)
+ols.null <- lm(no.never ~ has.negative.perception, data = o)
+ols.test <- anova(ols.null, ols.alt)
 
+# Print out results
+library(knitr)

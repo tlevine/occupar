@@ -8,16 +8,17 @@ not.participate <- subset(all, A8.ATTEND_YN == 0)
 # New variables
 q.7c <- c('A7c_1.ineffective', 'A7c_2.noconcern', 'A7c_3.unfocused', 'A7c_4.disruptive', 'A7c_5.other')
 o <- data.frame(
-  has.life.stress          = not.participate$A4c_PBCbarriers > 0,
-  no.never                 = not.participate$A8.attend == 3,
-  has.negative.perception  = rowSums(not.participate[q.7c]) > 0
+  has.life.stress          = as.numeric(not.participate$A4c_PBCbarriers > 0),
+  no.never                 = as.numeric(not.participate$A8.attend == 3),
+  has.negative.perception  = as.numeric(rowSums(not.participate[q.7c]) > 0)
 )
 
 # A summary
+o.yesno <- as.data.frame(lapply(o, function(v) { w <- factor(v, levels = 1:0); levels(w) <- c('Yes', 'No'); w }))
 sample.proportions <- ddply(
-  o,
+  o.yesno,
   c('has.life.stress', 'has.negative.perception'),
-  function(df) { c(p.no.never = mean(df$no.never)) }
+  function(df) { c(p.no.never = mean(df$no.never == 'Yes')) }
 )
 sample.proportions.pretty <- sample.proportions
 sample.proportions.pretty$p.no.never <-

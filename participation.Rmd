@@ -1,6 +1,10 @@
 Life stresses mediate an association between negative perception of activism and a decision never to participate
 ======
 
+```{r setup, echo = F}
+options(width = 120)
+```
+
 ## Variables
 ![Take a picture of the page from my notebook, and put it here.]()
 
@@ -45,7 +49,8 @@ function of `has.negative perception`, ignorant of `has.life.stress`.
 summary(logit.null)
 ```
 
-(Talk about the model coefficients here.)
+The `has.negative.perception` coefficient is significantly different from zero,
+indicating that negative perception is associated with participation.
 
 Then we fit a logistic regression for the full relationship described above,
 which adds the `has.life.stress` term.
@@ -54,7 +59,13 @@ which adds the `has.life.stress` term.
 summary(logit.alt)
 ```
 
-(Talk about the model coefficients here.)
+All of the non-intercept coefficients significantly different from zero,
+indicating that negative perception and life stress, separately, are both
+associated with participation and that the associations are different
+when combined. Specifically, someone with just negative perception or life
+has higher odds of saying "never" than someone with neither, but the odds
+are somewhere in between for someone who has both negative perception and
+life stress.
 
 Finally, we compared the two with a likelihood ratio test.
 
@@ -63,7 +74,7 @@ logit.test
 ```
 
 The likelihood ratio test finds that the data are significantly more likely
-given the full model than the null model, suggesting that life stress
+given the full model than the null model, suggesting, again, that life stress
 significantly mediates the relationship between negative perception and
 participation in activism.
 

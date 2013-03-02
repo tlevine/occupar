@@ -37,7 +37,6 @@ For our sample, here are the proportions of people within each group who said
 
 ```{r summary, echo = F, comment = '    '}
 sample.proportions.pretty
-sample.proportions.plot
 ```
 
 ### Logistic regression
@@ -96,6 +95,19 @@ that suggest that direction, but the questionnaire gives us no formal idea
 about the direction of causality; for example, it could be that the choice never
 to participate leads to overstatement of reasons against participation and
 of life stresses.
+
+## Conclusion
+Life stresses mediate an association between negative perception of activism
+and a decision never to participate in Occupy CUNY. For interpreting the
+direction of this relationship, the following plot is helpful.
+
+```{r summary.plot, echo = F, comment = '    '}
+sample.proportions.plot
+```
+
+Negative perception makes people more likely to say they will "never"
+participate, regardless of the level of life stress, and having life stress
+makes this difference larger.
 
 ## Ideas for future study
 We ignored which boxes people checked for questions 4c and 7c. It may be

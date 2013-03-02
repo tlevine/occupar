@@ -27,16 +27,56 @@ and some negative perception of activism; if these names bother you, mentally
 switch the "has" to "has more".
 
 ## Results
-```{r summary, echo = F}
-sample.probabilities
+We have two binary independent variables, so $$2^2 = 4$$ different combinations.
+For our sample, here are the proportions of people within each group who said
+"never" (rather than "no, ... but").
+
+```{r summary, echo = F, comment = '    '}
+sample.proportions.pretty
+sample.proportions.plot
 ```
 
-```{r blah}
-print(sample.probabilities)
-#print(summary(logit.alternative))
-#print(anova(logit.alternative, logit.null))
-print(summary(ols.alternative))
+### Logistic regression
+We fit two logistic regressions and compared them with a likelihood ratio test.
+As a null model, we fit the simple logistic regression of `no.never` as a
+function of `has.negative perception`, ignorant of `has.life.stress`.
 
+```{r logit.null, echo = F, comment = '    '}
+summary(logit.null)
+```
+
+(Talk about the model coefficients here.)
+
+Then we fit a logistic regression for the full relationship described above,
+which adds the `has.life.stress` term.
+
+```{r logit.alt, echo = F, comment = '    '}
+summary(logit.alt)
+```
+
+(Talk about the model coefficients here.)
+
+Finally, we compared the two with a likelihood ratio test.
+
+```{r logit.test, echo = F, comment = '    '}
+logit.test
+```
+
+The likelihood ratio test finds that the data are significantly more likely
+given the full model than the null model, suggesting that life stress
+significantly mediates the relationship between negative perception and
+participation in activism.
+
+### Ordinary least squares
+We repeated this analysis with ordinary least squares (OLS) regressions,
+swapping the likelihood ratio test for an F test. Logistic regression is more
+appropriate for these data because they have a binary response, but the OLS
+results are similar and may be easier for some people to understand.
+
+```{r ols, echo = F, comment = '    '}
+summary(ols.null)
+summary(ols.alt)
+ols.test
 ```
 
 ## Not experimental

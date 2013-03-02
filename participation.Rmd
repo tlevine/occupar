@@ -1,9 +1,19 @@
+Life stresses mediate an association between
+
+![Take a picture of the page from my notebook, and put it here.]()
+
 ```{r blah}
 
 print(sample.probabilities)
 #print(summary(logit.alternative))
 #print(anova(logit.alternative, logit.null))
 print(summary(ols.alternative))
-print(anova(ols.alternative, ols.null))
 
 ```
+
+## Not experimental
+We intuitively suspect a particular direction of causality and have fit models
+that suggest that direction, but the questionnaire gives us no formal idea
+about the direction of causality; for example, it could be that the choice never
+to participate leads to overstatement of reasons against participation and
+of life stresses.

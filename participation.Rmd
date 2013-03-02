@@ -1,9 +1,37 @@
-Life stresses mediate an association between
+Life stresses mediate an association between negative perception of activism and a decision never to participate
+======
 
+## Variables
 ![Take a picture of the page from my notebook, and put it here.]()
 
-```{r blah}
+questions 4c, 7c and 8
 
+The questionnaire requested that question 4c only be answered by people who had
+answered with one of the two "No" responses to question 8, so we used only the
+subset of the data for which question 8 was one of these no responses. We thus
+had a binary participation variable, `no.never`, which was true if the
+participant said she would never participate and false if she said that she
+had not participated but (would like to ?).
+
+For both questions 4c and 7c, almost people checked either zero or one box.
+For simplicity, we simply checked whether at least one of the respective
+groups of check marks was checked. Thus, our life stress variable,
+`has.life.stress`, was true if at least one of question 4c's boxes was checked
+and false if none was checked. Similarly, our variable for negative perception
+of activism, `has.negative.perception`, was true if at least one of 7c's
+boxes was checked and false if none were.
+
+We chose variable names that start with the word "has" so that it would be less
+confusing to talk about, but both groups obviously have both life stresses
+and some negative perception of activism; if these names bother you, mentally
+switch the "has" to "has more".
+
+## Results
+```{r summary, echo = F}
+sample.probabilities
+```
+
+```{r blah}
 print(sample.probabilities)
 #print(summary(logit.alternative))
 #print(anova(logit.alternative, logit.null))
@@ -17,3 +45,8 @@ that suggest that direction, but the questionnaire gives us no formal idea
 about the direction of causality; for example, it could be that the choice never
 to participate leads to overstatement of reasons against participation and
 of life stresses.
+
+## Ideas for future study
+We ignored which boxes people checked for questions 4c and 7c. It may be
+informative to see how the particular box that was checked relates to
+the question 8 result or other results.

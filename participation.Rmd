@@ -46,11 +46,21 @@ analysis for the respondents who said they had not participated in
 OccupyCUNY. This led to a reversed framing of the relationship 
 described above.
 
-
+    +---------------+                   +---------------+
+    | Negative atti-|                   | Decisiveness  |
+    | tude towards  |   ------------>   | about not     |
+    | activism      |                   | participating |
+    +---------------+        / \        +---------------+
+      (question 7c)           |           (question 8)
+                      
+                      +---------------+
+                      | Life stress   |
+                      | (Barriers to  |
+                      | participation)|
+                      +---------------+
+                        (question 4c)
 
 ## Variables
-questions 4c, 7c and 8
-
 The questionnaire requested that question 4c only be answered by people who had
 answered with one of the two "No" responses to question 8, so we used only the
 subset of the data for which question 8 was one of these no responses. We thus

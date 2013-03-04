@@ -1,5 +1,7 @@
 library(plyr)
+library(ggplot2)
 library(epicalc)
+library(scales)
 all <- read.csv('occuPARcleandata.csv')
 
 # Only not participate
@@ -25,7 +27,12 @@ sample.proportions.pretty$p.no.never <-
     paste(100 * round(sample.proportions.pretty$p.no.never, 3), '%', sep = '')
     
 sample.proportions.plot <- ggplot(sample.proportions) +
-    aes(x = has.negative.perception, group = has.life.stress, y = p.no.never, lty = has.life.stress) + geom_line()
+    aes(x = has.negative.perception, group = has.life.stress, y = p.no.never, lty = has.life.stress) + geom_line() +
+    scale_y_continuous('Proportion selecting "never" rather than a simple "no".', labels = percent, limits = 0:1) +
+    theme_bw() +
+    labs(x = 'Has negative perception\n(checked at least one box)',
+         lty = 'Has life stress\n(checked at least\none box)',
+         title = 'Negative perception of OccupyCUNY is\nmore strongly associated with participation\nwhen life stress is greater.')
 
 # Logistic regression
 logit.alt  <- glm(no.never ~ has.life.stress * has.negative.perception,

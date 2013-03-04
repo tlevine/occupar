@@ -152,7 +152,7 @@ Life stresses mediate an association between negative perception of activism
 and a decision never to participate in Occupy CUNY. For interpreting the
 direction of this relationship, the following plot is helpful.
 
-```{r summary.plot, echo = F, comment = '    '}
+```{r summary.plot, echo = F, comment = '    ', fig.width = 11}
 sample.proportions.plot
 ```
 

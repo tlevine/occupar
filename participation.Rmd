@@ -1,10 +1,15 @@
 Life stresses mediate an association between negative perception of activism and a decision never to participate
 ======
-
 ```{r setup, echo = F}
 options(width = 120)
 ```
+## To do
+If we weren't going to put this into some larger report, I would add
 
+* The actual questionnaire questions
+* More summaries of the sort of people who took the questionnaire
+
+## Introduction
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
 mediated by life stresses.

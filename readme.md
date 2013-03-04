@@ -2,13 +2,69 @@ Life stresses mediate an association between negative perception of activism and
 ======
 
 
+## To do
+If we weren't going to put this into some larger report, I would add
 
+* The actual questionnaire questions
+* More summaries of the sort of people who took the questionnaire
+
+## Introduction
+We wanted to test whether a desire to participate in activim was associated
+with increased participation in activism and whether this relationship was
+mediated by life stresses.
+
+    +---------------+                   +---------------+
+    | Interest in   |                   | Participation |
+    | participating |   ------------>   | in activism   |
+    | in activism   |                   |               |
+    +---------------+        / \        +---------------+
+                              | 
+                      
+                      +---------------+
+                      | Life stress   |
+                      | (Barriers to  |
+                      | participation)|
+                      +---------------+
+
+A questionnaire about OccupyCUNY was taken by a convenience sample of
+CUNY students.
+
+Preferably, we would have had each participant answer the same questions
+about her level of interest of participation (such as whether she agrees
+with the movement's views or whether she think the movement will have
+positive impact) and her life stresses (like working overtime) and her
+level of participation.
+
+The actual questionnaire asked one question about level of participation
+to all participants. The questions about interest in participation and
+about life stress were arranged such that people answered different
+questions depending on whether they had previously participated in
+OccupyCUNY, which is quite related to their level of participation
+in activism. We thus had to separate the analysis by whether people had
+previously participated in OccupyCUNY.
+
+There wasn't much separation by level of participation within the
+people who said they had participated. (There wer 64 people in the
+higher group and 7 in the lower group.) Thus, we only conducted the
+analysis for the respondents who said they had not participated in
+OccupyCUNY. This led to a reversed framing of the relationship 
+described above.
+
+    +---------------+                   +---------------+
+    | Negative atti-|                   | Decisiveness  |
+    | tude towards  |   ------------>   | about not     |
+    | activism      |                   | participating |
+    +---------------+        / \        +---------------+
+      (question 7c)           |           (question 8)
+                      
+                      +---------------+
+                      | Life stress   |
+                      | (Barriers to  |
+                      | participation)|
+                      +---------------+
+                        (question 4c)
 
 ## Variables
-![Take a picture of the page from my notebook, and put it here.]()
-
-questions 4c, 7c and 8
-
 The questionnaire requested that question 4c only be answered by people who had
 answered with one of the two "No" responses to question 8, so we used only the
 subset of the data for which question 8 was one of these no responses. We thus

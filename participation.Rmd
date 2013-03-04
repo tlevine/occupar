@@ -5,11 +5,13 @@ Life stresses mediate an association between negative perception of activism and
 options(width = 120)
 ```
 
-We wanted to test
+We wanted to test whether a desire to participate in activim was associated
+with increased participation in activism and whether this relationship was
+mediated by life stresses.
 
     +---------------+                   +---------------+
-    | Desire to     |                   | Participation |
-    | participate   |   ------------>   | in activism   |
+    | Interest in   |                   | Participation |
+    | participating |   ------------>   | in activism   |
     | in activism   |                   |               |
     +---------------+        / \        +---------------+
                               | 
@@ -20,7 +22,26 @@ We wanted to test
                       | participation)|
                       +---------------+
 
-![Take a picture of the page from my notebook, and put it here.]()
+A questionnaire about OccupyCUNY was taken by a convenience sample of
+CUNY students.
+
+Preferably, we would have had each participant answer the same questions
+about her level of interest of participation (such as whether she agrees
+with the movement's views or whether she think the movement will have
+positive impact) and her life stresses (like working overtime) and her
+level of participation.
+
+The actual questionnaire asked one question about level of participation
+to all participants. The questions about interest in participation and
+about life stress were arranged such that people answered different
+questions depending on whether they had previously participated in
+OccupyCUNY, which is quite related to their level of participation
+in activism. We thus had to separate the analysis by whether people had
+previously participated in OccupyCUNY.
+
+
+Because of the way the questionnaire was structured, we wound up framing
+this relationship in the reverse
 
 
 ## Variables

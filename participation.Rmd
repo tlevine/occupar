@@ -39,9 +39,13 @@ OccupyCUNY, which is quite related to their level of participation
 in activism. We thus had to separate the analysis by whether people had
 previously participated in OccupyCUNY.
 
+There wasn't much separation by level of participation within the
+people who said they had participated. (There wer 64 people in the
+higher group and 7 in the lower group.) Thus, we only conducted the
+analysis for the respondents who said they had not participated in
+OccupyCUNY. This led to a reversed framing of the relationship 
+described above.
 
-Because of the way the questionnaire was structured, we wound up framing
-this relationship in the reverse
 
 
 ## Variables

@@ -2,6 +2,15 @@ Life stresses mediate an association between negative perception of activism and
 ======
 
 
+<style>
+/* http://stackoverflow.com/questions/7698764/custom-bullet-symbol-for-li-elements-in-ul-that-is-a-regular-character-and */
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+</style>
 ## To do
 Since we're making a blog post about this, I would add
 
@@ -50,10 +59,10 @@ to all participants (question 8).
 
 > 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
 >
-> □ Yes, and I want to participate again because ________
-> □ Yes, but I do not want to participate again because ________
-> □ No, and I will not participate because ________
-> □ No. I would like to participate but ________
+> * □ Yes, and I want to participate again because ________
+> * □ Yes, but I do not want to participate again because ________
+> * □ No, and I will not participate because ________
+> * □ No. I would like to participate but ________
 
 The questions about interest in participation (question 7) and
 about life stress (question 4) were arranged such that people answered different
@@ -62,66 +71,67 @@ OccupyCUNY, which is quite related to their level of participation
 in activism.
 
 > 3. Are you participating in activism that addresses issues in higher education?  
-> □ Yes (go to 4a and 4b)
-> □ No  (go to 4c)
+>
+> * □ Yes (go to 4a and 4b)
+> * □ No  (go to 4c)
 > 
 > 4a. If Yes, what motivates you?
 > 
 > 4b. If yes, what enables you to participate? 
 >
-> * Financial resources
-> * Job security
-> * Childcare
-> * Sense of belonging/community
-> * Training in activism skills
-> * Having a flexible schedule
-> * Support from family, friends, peers, partners 
-> * Encouragement at work and union
-> * Access to ongoing sources of info
-> * Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
-> * Other concrete things like _______
+> * □ Financial resources
+> * □ Job security
+> * □ Childcare
+> * □ Sense of belonging/community
+> * □ Training in activism skills
+> * □ Having a flexible schedule
+> * □ Support from family, friends, peers, partners 
+> * □ Encouragement at work and union
+> * □ Access to ongoing sources of info
+> * □ Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
+> * □ Other concrete things like _______
 > 
 > 4c. If no, what prevents you from participating? 
 >
-> * Lack of financial resources
-> * Job insecurity
-> * No childcare   
-> * Inflexible schedule/No time
-> * No support from family, friends, peers, partners 
-> * Institutional discouragement/limitations at work and union
-> * No access to ongoing sources of info
-> * Institutional discouragement/limitations at school
-> * Surveillance
-> * Police violence/threat
-> * Consequence of arrests
-> * Other _______
+> * □ Lack of financial resources
+> * □ Job insecurity
+> * □ No childcare   
+> * □ Inflexible schedule/No time
+> * □ No support from family, friends, peers, partners 
+> * □ Institutional discouragement/limitations at work and union
+> * □ No access to ongoing sources of info
+> * □ Institutional discouragement/limitations at school
+> * □ Surveillance
+> * □ Police violence/threat
+> * □ Consequence of arrests
+> * □ Other _______
 > 
 
 
 > 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
 > 
-> □ Positive
-> □ Negative
-> □ Ambivalent/ mixed feelings  
-> □ I don’t know much about it
-> □ I don’t have an opinion
+> * □ Positive
+> * □ Negative
+> * □ Ambivalent/ mixed feelings  
+> * □ I don’t know much about it
+> * □ I don’t have an opinion
 > 
 > b. I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
-> □ It opens a dialog about privatization of public higher education 
-> □ It is led by students for students   
-> □ I feel a part of a movement
-> □ It represents common issues faced by the majority of the population
-> □ It uses a democratic process  
-> □ It uses nonviolent methods
-> □ It uses direct action
-> □ Other (please specify) ________
+> * □ It opens a dialog about privatization of public higher education 
+> * □ It is led by students for students   
+> * □ I feel a part of a movement
+> * □ It represents common issues faced by the majority of the population
+> * □ It uses a democratic process  
+> * □ It uses nonviolent methods
+> * □ It uses direct action
+> * □ Other (please specify) ________
 > 
 > c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
-> □ It is not effective
-> □ It does not deal with issues that concern me
-> □ It is unfocused, and does not have a coherent message
-> □ It is disruptive to classes 
-> □ Other (please specify) ________
+> * □ It is not effective
+> * □ It does not deal with issues that concern me
+> * □ It is unfocused, and does not have a coherent message
+> * □ It is disruptive to classes 
+> * □ Other (please specify) ________
 
 
 We thus had to separate the analysis by whether people had
@@ -183,11 +193,11 @@ For our sample, here are the proportions of people within each group who said
 
 
 ```
-       has.life.stress has.negative.perception p.no.never
-     1             Yes                     Yes        40%
-     2             Yes                      No      32.4%
-     3              No                     Yes      55.6%
-     4              No                      No       5.7%
+  has.life.stress has.negative.perception p.no.never
+1             Yes                     Yes        40%
+2             Yes                      No      32.4%
+3              No                     Yes      55.6%
+4              No                      No       5.7%
 ```
 
 
@@ -198,29 +208,29 @@ function of `has.negative perception`, ignorant of `has.life.stress`.
 
 
 ```
-     
-     Call:
-     glm(formula = no.never ~ has.negative.perception, family = "binomial", 
-         data = o)
-     
-     Deviance Residuals: 
-        Min      1Q  Median      3Q     Max  
-     -1.047  -0.774  -0.774   1.314   1.644  
-     
-     Coefficients:
-                             Estimate Std. Error z value Pr(>|z|)    
-     (Intercept)               -1.053      0.191   -5.51  3.5e-08 ***
-     has.negative.perception    0.737      0.317    2.33     0.02 *  
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-     
-     (Dispersion parameter for binomial family taken to be 1)
-     
-         Null deviance: 256.03  on 206  degrees of freedom
-     Residual deviance: 250.67  on 205  degrees of freedom
-     AIC: 254.7
-     
-     Number of Fisher Scoring iterations: 4
+
+Call:
+glm(formula = no.never ~ has.negative.perception, family = "binomial", 
+    data = o)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.047  -0.774  -0.774   1.314   1.644  
+
+Coefficients:
+                        Estimate Std. Error z value Pr(>|z|)    
+(Intercept)               -1.053      0.191   -5.51  3.5e-08 ***
+has.negative.perception    0.737      0.317    2.33     0.02 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 256.03  on 206  degrees of freedom
+Residual deviance: 250.67  on 205  degrees of freedom
+AIC: 254.7
+
+Number of Fisher Scoring iterations: 4
 ```
 
 
@@ -232,31 +242,31 @@ which adds the `has.life.stress` term.
 
 
 ```
-     
-     Call:
-     glm(formula = no.never ~ has.life.stress * has.negative.perception, 
-         family = "binomial", data = o)
-     
-     Deviance Residuals: 
-        Min      1Q  Median      3Q     Max  
-     -1.274  -0.885  -0.885   1.354   2.393  
-     
-     Coefficients:
-                                             Estimate Std. Error z value Pr(>|z|)    
-     (Intercept)                               -2.803      0.728   -3.85  0.00012 ***
-     has.life.stress                            2.068      0.757    2.73  0.00627 ** 
-     has.negative.perception                    3.027      0.990    3.06  0.00224 ** 
-     has.life.stress:has.negative.perception   -2.697      1.048   -2.57  0.01007 *  
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-     
-     (Dispersion parameter for binomial family taken to be 1)
-     
-         Null deviance: 256.03  on 206  degrees of freedom
-     Residual deviance: 237.79  on 203  degrees of freedom
-     AIC: 245.8
-     
-     Number of Fisher Scoring iterations: 5
+
+Call:
+glm(formula = no.never ~ has.life.stress * has.negative.perception, 
+    family = "binomial", data = o)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.274  -0.885  -0.885   1.354   2.393  
+
+Coefficients:
+                                        Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                               -2.803      0.728   -3.85  0.00012 ***
+has.life.stress                            2.068      0.757    2.73  0.00627 ** 
+has.negative.perception                    3.027      0.990    3.06  0.00224 ** 
+has.life.stress:has.negative.perception   -2.697      1.048   -2.57  0.01007 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 256.03  on 206  degrees of freedom
+Residual deviance: 237.79  on 203  degrees of freedom
+AIC: 245.8
+
+Number of Fisher Scoring iterations: 5
 ```
 
 
@@ -272,8 +282,8 @@ Finally, we compared the two with a likelihood ratio test.
 
 
 ```
-     Likelihood ratio test for MLE method 
-     Chi-squared 2 d.f. =  12.88 , P value =  0.001594
+Likelihood ratio test for MLE method 
+Chi-squared 2 d.f. =  12.88 , P value =  0.001594 
 ```
 
 
@@ -290,60 +300,60 @@ results are similar and may be easier for some people to understand.
 
 
 ```
-     
-     Call:
-     lm(formula = no.never ~ has.negative.perception, data = o)
-     
-     Residuals:
-        Min     1Q Median     3Q    Max 
-     -0.422 -0.259 -0.259  0.578  0.741 
-     
-     Coefficients:
-                             Estimate Std. Error t value Pr(>|t|)    
-     (Intercept)               0.2587     0.0383    6.75  1.5e-10 ***
-     has.negative.perception   0.1631     0.0689    2.37    0.019 *  
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-     
-     Residual standard error: 0.458 on 205 degrees of freedom
-     Multiple R-squared: 0.0266,	Adjusted R-squared: 0.0219 
-     F-statistic:  5.6 on 1 and 205 DF,  p-value: 0.0188
+
+Call:
+lm(formula = no.never ~ has.negative.perception, data = o)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-0.422 -0.259 -0.259  0.578  0.741 
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)               0.2587     0.0383    6.75  1.5e-10 ***
+has.negative.perception   0.1631     0.0689    2.37    0.019 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.458 on 205 degrees of freedom
+Multiple R-squared: 0.0266,	Adjusted R-squared: 0.0219 
+F-statistic:  5.6 on 1 and 205 DF,  p-value: 0.0188 
 ```
 
 ```
-     
-     Call:
-     lm(formula = no.never ~ has.life.stress * has.negative.perception, 
-         data = o)
-     
-     Residuals:
-        Min     1Q Median     3Q    Max 
-     -0.556 -0.324 -0.324  0.600  0.943 
-     
-     Coefficients:
-                                             Estimate Std. Error t value Pr(>|t|)   
-     (Intercept)                               0.0571     0.0759    0.75   0.4526   
-     has.life.stress                           0.2669     0.0874    3.06   0.0026 **
-     has.negative.perception                   0.4984     0.1679    2.97   0.0034 **
-     has.life.stress:has.negative.perception  -0.4225     0.1836   -2.30   0.0224 * 
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
-     
-     Residual standard error: 0.449 on 203 degrees of freedom
-     Multiple R-squared: 0.0734,	Adjusted R-squared: 0.0598 
-     F-statistic: 5.36 on 3 and 203 DF,  p-value: 0.00142
+
+Call:
+lm(formula = no.never ~ has.life.stress * has.negative.perception, 
+    data = o)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-0.556 -0.324 -0.324  0.600  0.943 
+
+Coefficients:
+                                        Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                               0.0571     0.0759    0.75   0.4526   
+has.life.stress                           0.2669     0.0874    3.06   0.0026 **
+has.negative.perception                   0.4984     0.1679    2.97   0.0034 **
+has.life.stress:has.negative.perception  -0.4225     0.1836   -2.30   0.0224 * 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Residual standard error: 0.449 on 203 degrees of freedom
+Multiple R-squared: 0.0734,	Adjusted R-squared: 0.0598 
+F-statistic: 5.36 on 3 and 203 DF,  p-value: 0.00142 
 ```
 
 ```
-     Analysis of Variance Table
-     
-     Model 1: no.never ~ has.negative.perception
-     Model 2: no.never ~ has.life.stress * has.negative.perception
-       Res.Df RSS Df Sum of Sq    F Pr(>F)   
-     1    205  43                            
-     2    203  41  2      2.07 5.13 0.0067 **
-     ---
-     Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+Analysis of Variance Table
+
+Model 1: no.never ~ has.negative.perception
+Model 2: no.never ~ has.life.stress * has.negative.perception
+  Res.Df RSS Df Sum of Sq    F Pr(>F)   
+1    205  43                            
+2    203  41  2      2.07 5.13 0.0067 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 ```
 
 

@@ -5,6 +5,15 @@ Life stresses mediate an association between negative perception of activism and
 # He doesn't know who wrote those, but Mimiko sent them to him.
 options(width = 120)
 ```
+<style>
+/* http://stackoverflow.com/questions/7698764/custom-bullet-symbol-for-li-elements-in-ul-that-is-a-regular-character-and */
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+</style>
 ## To do
 Since we're making a blog post about this, I would add
 
@@ -53,10 +62,10 @@ to all participants (question 8).
 
 > 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
 >
-> □ Yes, and I want to participate again because ________
-> □ Yes, but I do not want to participate again because ________
-> □ No, and I will not participate because ________
-> □ No. I would like to participate but ________
+> * □ Yes, and I want to participate again because ________
+> * □ Yes, but I do not want to participate again because ________
+> * □ No, and I will not participate because ________
+> * □ No. I would like to participate but ________
 
 The questions about interest in participation (question 7) and
 about life stress (question 4) were arranged such that people answered different
@@ -65,66 +74,67 @@ OccupyCUNY, which is quite related to their level of participation
 in activism.
 
 > 3. Are you participating in activism that addresses issues in higher education?  
-> □ Yes (go to 4a and 4b)
-> □ No  (go to 4c)
+>
+> * □ Yes (go to 4a and 4b)
+> * □ No  (go to 4c)
 > 
 > 4a. If Yes, what motivates you?
 > 
 > 4b. If yes, what enables you to participate? 
 >
-> * Financial resources
-> * Job security
-> * Childcare
-> * Sense of belonging/community
-> * Training in activism skills
-> * Having a flexible schedule
-> * Support from family, friends, peers, partners 
-> * Encouragement at work and union
-> * Access to ongoing sources of info
-> * Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
-> * Other concrete things like _______
+> * □ Financial resources
+> * □ Job security
+> * □ Childcare
+> * □ Sense of belonging/community
+> * □ Training in activism skills
+> * □ Having a flexible schedule
+> * □ Support from family, friends, peers, partners 
+> * □ Encouragement at work and union
+> * □ Access to ongoing sources of info
+> * □ Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
+> * □ Other concrete things like _______
 > 
 > 4c. If no, what prevents you from participating? 
 >
-> * Lack of financial resources
-> * Job insecurity
-> * No childcare   
-> * Inflexible schedule/No time
-> * No support from family, friends, peers, partners 
-> * Institutional discouragement/limitations at work and union
-> * No access to ongoing sources of info
-> * Institutional discouragement/limitations at school
-> * Surveillance
-> * Police violence/threat
-> * Consequence of arrests
-> * Other _______
+> * □ Lack of financial resources
+> * □ Job insecurity
+> * □ No childcare   
+> * □ Inflexible schedule/No time
+> * □ No support from family, friends, peers, partners 
+> * □ Institutional discouragement/limitations at work and union
+> * □ No access to ongoing sources of info
+> * □ Institutional discouragement/limitations at school
+> * □ Surveillance
+> * □ Police violence/threat
+> * □ Consequence of arrests
+> * □ Other _______
 > 
 
 
 > 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
 > 
-> □ Positive
-> □ Negative
-> □ Ambivalent/ mixed feelings  
-> □ I don’t know much about it
-> □ I don’t have an opinion
+> * □ Positive
+> * □ Negative
+> * □ Ambivalent/ mixed feelings  
+> * □ I don’t know much about it
+> * □ I don’t have an opinion
 > 
 > b. I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
-> □ It opens a dialog about privatization of public higher education 
-> □ It is led by students for students   
-> □ I feel a part of a movement
-> □ It represents common issues faced by the majority of the population
-> □ It uses a democratic process  
-> □ It uses nonviolent methods
-> □ It uses direct action
-> □ Other (please specify) ________
+> * □ It opens a dialog about privatization of public higher education 
+> * □ It is led by students for students   
+> * □ I feel a part of a movement
+> * □ It represents common issues faced by the majority of the population
+> * □ It uses a democratic process  
+> * □ It uses nonviolent methods
+> * □ It uses direct action
+> * □ Other (please specify) ________
 > 
 > c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
-> □ It is not effective
-> □ It does not deal with issues that concern me
-> □ It is unfocused, and does not have a coherent message
-> □ It is disruptive to classes 
-> □ Other (please specify) ________
+> * □ It is not effective
+> * □ It does not deal with issues that concern me
+> * □ It is unfocused, and does not have a coherent message
+> * □ It is disruptive to classes 
+> * □ Other (please specify) ________
 
 
 We thus had to separate the analysis by whether people had
@@ -184,7 +194,7 @@ We have two binary independent variables, so $$2^2 = 4$$ different combinations.
 For our sample, here are the proportions of people within each group who said
 "never" (rather than "no, ... but").
 
-```{r summary, echo = F, comment = '    '}
+```{r summary, echo = F, comment = ''}
 sample.proportions.pretty
 ```
 
@@ -193,7 +203,7 @@ We fit two logistic regressions and compared them with a likelihood ratio test.
 As a null model, we fit the simple logistic regression of `no.never` as a
 function of `has.negative perception`, ignorant of `has.life.stress`.
 
-```{r logit.null, echo = F, comment = '    '}
+```{r logit.null, echo = F, comment = ''}
 summary(logit.null)
 ```
 
@@ -203,7 +213,7 @@ indicating that negative perception is associated with participation.
 Then we fit a logistic regression for the full relationship described above,
 which adds the `has.life.stress` term.
 
-```{r logit.alt, echo = F, comment = '    '}
+```{r logit.alt, echo = F, comment = ''}
 summary(logit.alt)
 ```
 
@@ -217,7 +227,7 @@ life stress.
 
 Finally, we compared the two with a likelihood ratio test.
 
-```{r logit.test, echo = F, comment = '    '}
+```{r logit.test, echo = F, comment = ''}
 logit.test
 ```
 
@@ -232,7 +242,7 @@ swapping the likelihood ratio test for an F test. Logistic regression is more
 appropriate for these data because they have a binary response, but the OLS
 results are similar and may be easier for some people to understand.
 
-```{r ols, echo = F, comment = '    '}
+```{r ols, echo = F, comment = ''}
 summary(ols.null)
 summary(ols.alt)
 ols.test
@@ -250,7 +260,7 @@ Life stresses mediate an association between negative perception of activism
 and a decision never to participate in Occupy CUNY. For interpreting the
 direction of this relationship, the following plot is helpful.
 
-```{r summary.plot, echo = F, comment = '    ', fig.width = 11}
+```{r summary.plot, echo = F, comment = '', fig.width = 11}
 sample.proportions.plot
 ```
 

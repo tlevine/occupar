@@ -280,3 +280,16 @@ makes this difference larger.
 We ignored which boxes people checked for questions 4c and 7c. It may be
 informative to see how the particular box that was checked relates to
 the question 8 result or other results.
+
+## Relevance
+The conclusion of this study can be applied to the marketing surrounding
+activism. Aside from trying to influence people's perception of the
+value of activism, marketing should consider activists' life stresses.
+
+People who are trying to recruit and sustain activists should
+focus on people with fewer life stresses or should provide support to
+current and potential activists who have more life stresses.
+
+People who are trying to suppress activism should focus on people with
+more life stresses or should try to make the lives of potential and
+current activists more stressful.

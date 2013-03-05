@@ -11,7 +11,7 @@ Since we're making a blog post about this, I would add
 * A definition of "critical PAR"
 * The actual questionnaire questions
 
-## Introduction
+## Research question
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
 mediated by life stresses.
@@ -49,11 +49,48 @@ these cases, researchers gave participants ten minutes to complete the survey an
 
 ## The question at hand
 The questionnaire asked one question about level of participation
-to all participants. The questions about interest in participation and
-about life stress were arranged such that people answered different
+to all participants (question 8).
+
+> 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
+>
+> □ Yes, and I want to participate again because ______________________________________________________
+> □ Yes, but I do not want to participate again because _______________________________________________
+> □ No, and I will not participate because _________________________________________________________
+> □ No. I would like to participate but _________________________________________________________
+
+The questions about interest in participation (question 7) and
+about life stress (question 4) were arranged such that people answered different
 questions depending on whether they had previously participated in
 OccupyCUNY, which is quite related to their level of participation
-in activism. We thus had to separate the analysis by whether people had
+in activism.
+
+> 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
+> 
+> □ Positive
+> □ Negative
+> □ Ambivalent/ mixed feelings  
+> □ I don’t know much about it
+> □ I don’t have an opinion
+> 
+> b. I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> □ It opens a dialog about privatization of public higher education 
+> □ It is led by students for students   
+> □ I feel a part of a movement
+> □ It represents common issues faced by the majority of the population
+> □ It uses a democratic process  
+> □ It uses nonviolent methods
+> □ It uses direct action
+> □ Other (please specify) _____________________________________________________________________
+> 
+> c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> □ It is not effective
+> □ It does not deal with issues that concern me
+> □ It is unfocused, and does not have a coherent message
+> □ It is disruptive to classes 
+> □ Other (please specify) _____________________________________________________________________
+
+
+We thus had to separate the analysis by whether people had
 previously participated in OccupyCUNY.
 
 There wasn't much separation by level of participation within the

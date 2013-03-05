@@ -41,7 +41,7 @@ with the movement's views or whether she think the movement will have
 positive impact) and her life stresses (like working overtime) and her
 level of participation.
 
-### The questionnaire
+## The questionnaire
 A questionnaire was developed using critical PAR as the methodological approach.
 It was based on the collective experiences of the researchers as CUNY students.
 Several pilot surveys were distributed on CUNY campuses and at the Free University, an activist event in Madison Square Park that occurred on May 1, 2012. This enabled researchers to revise and build the survey based on feedback from students. Insight from CUNY students was essential in the construction of the survey. Distribution of the final version of the survey began May 1, 2012 and continued until September 16, 2012. Surveys were collected on CUNY campuses, in classrooms, at CUNY activist events, and online.
@@ -60,7 +60,7 @@ This sample consisted of 304 current students attending various CUNY campuses. T
 
 Based on all this, the sample seems fairly representative of the CUNY student body. 
 
-## The question at hand
+## Approach
 The questionnaire asked one question about level of participation
 to all participants (question 8).
 
@@ -397,5 +397,4 @@ more life stresses or should try to make the lives of potential and
 current activists more stressful.
 
 ## The research team
-The research team was initially composed of twelve individuals, including four CUNY undergraduate students, seven CUNY graduate students, and one alumnus. Most individuals on the research team had previous experience as student activists addressing issues at CUNY schools.  The group met consistently from February, 2012 to May, 2012 in order to develop a survey designed to find the supports and barriers to student activism on CUNY campuses. During this time, one undergraduate student and one graduate student dropped out of the study. The research team had ten members when the survey was finalized.
-
+The research team was initially composed of twelve individuals, including four CUNY undergraduate students, seven CUNY graduate students, and one alumnus. Most individuals on the research team had previous experience as student activists addressing issues at CUNY schools.  The group met consistently from February, 2012 to May, 2012 in order to develop a survey designed to find the supports and barriers to student activism on CUNY campuses. During this time, one undergraduate student and one graduate student dropped out of the study. The research team had ten members when the survey was finalized. Tom joined this team at the OccupyData hacakathon on March 1 to assist in the present analysis.

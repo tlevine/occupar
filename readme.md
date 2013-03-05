@@ -50,10 +50,10 @@ to all participants (question 8).
 
 > 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
 >
-> □ Yes, and I want to participate again because ______________________________________________________
-> □ Yes, but I do not want to participate again because _______________________________________________
-> □ No, and I will not participate because _________________________________________________________
-> □ No. I would like to participate but _________________________________________________________
+> □ Yes, and I want to participate again because ________
+> □ Yes, but I do not want to participate again because ________
+> □ No, and I will not participate because ________
+> □ No. I would like to participate but ________
 
 The questions about interest in participation (question 7) and
 about life stress (question 4) were arranged such that people answered different
@@ -69,32 +69,32 @@ in activism.
 > 
 > 4b. If yes, what enables you to participate? 
 >
-> □ Financial resources
-> □ Job security
-> □ Childcare
-> □ Sense of belonging/community
-> □ Training in activism skills
-> □ Having a flexible schedule
-> □ Support from family, friends, peers, partners 
-> □ Encouragement at work and union
-> □ Access to ongoing sources of info
-> □ Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
-> □ Other concrete things like _____________________________________________________________________
+> * Financial resources
+> * Job security
+> * Childcare
+> * Sense of belonging/community
+> * Training in activism skills
+> * Having a flexible schedule
+> * Support from family, friends, peers, partners 
+> * Encouragement at work and union
+> * Access to ongoing sources of info
+> * Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
+> * Other concrete things like _______
 > 
 > 4c. If no, what prevents you from participating? 
 >
-> □ Lack of financial resources
-> □ Job insecurity
-> □ No childcare   
-> □ Inflexible schedule/No time
-> □ No support from family, friends, peers, partners 
-> □ Institutional discouragement/limitations at work and union
-> □ No access to ongoing sources of info
-> □ Institutional discouragement/limitations at school
-> □ Surveillance
-> □ Police violence/threat
-> □ Consequence of arrests
-> □ Other ____________________________________________________________________________________
+> * Lack of financial resources
+> * Job insecurity
+> * No childcare   
+> * Inflexible schedule/No time
+> * No support from family, friends, peers, partners 
+> * Institutional discouragement/limitations at work and union
+> * No access to ongoing sources of info
+> * Institutional discouragement/limitations at school
+> * Surveillance
+> * Police violence/threat
+> * Consequence of arrests
+> * Other _______
 > 
 
 
@@ -114,14 +114,14 @@ in activism.
 > □ It uses a democratic process  
 > □ It uses nonviolent methods
 > □ It uses direct action
-> □ Other (please specify) _____________________________________________________________________
+> □ Other (please specify) ________
 > 
 > c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
 > □ It is not effective
 > □ It does not deal with issues that concern me
 > □ It is unfocused, and does not have a coherent message
 > □ It is disruptive to classes 
-> □ Other (please specify) _____________________________________________________________________
+> □ Other (please specify) ________
 
 
 We thus had to separate the analysis by whether people had

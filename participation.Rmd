@@ -117,6 +117,7 @@ in activism.
 > * Other _______
 > 
 
+Question 4 is above, and question 7 is below.
 
 > **7a** Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
 > 
@@ -127,6 +128,7 @@ in activism.
 > * I don’t have an opinion
 > 
 > **7b** I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+>
 > * It opens a dialog about privatization of public higher education 
 > * It is led by students for students   
 > * I feel a part of a movement
@@ -137,6 +139,7 @@ in activism.
 > * Other (please specify) ________
 > 
 > **7c** I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+>
 > * It is not effective
 > * It does not deal with issues that concern me
 > * It is unfocused, and does not have a coherent message

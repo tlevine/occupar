@@ -5,6 +5,7 @@ Life stresses mediate an association between negative perception of activism and
 ## To do
 If we weren't going to put this into some larger report, I would add
 
+* How, when, where &c. the questionnaire was administered
 * The actual questionnaire questions
 * More summaries of the sort of people who took the questionnaire
 

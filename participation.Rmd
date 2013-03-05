@@ -1,5 +1,7 @@
 Life stresses mediate an association between negative perception of activism and a decision never to participate
 ======
+Thomas Levine and Mimiko Watanabe
+
 ```{r setup, echo = F}
 # Tom wrote all of this document, aside from the stuff he copied from the two Word files.
 # He doesn't know who wrote those, but Mimiko sent them to him.

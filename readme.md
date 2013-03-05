@@ -61,6 +61,43 @@ questions depending on whether they had previously participated in
 OccupyCUNY, which is quite related to their level of participation
 in activism.
 
+> 3. Are you participating in activism that addresses issues in higher education?  
+> □ Yes (go to 4a and 4b)
+> □ No  (go to 4c)
+> 
+> 4a. If Yes, what motivates you?
+> 
+> 4b. If yes, what enables you to participate? 
+>
+> □ Financial resources
+> □ Job security
+> □ Childcare
+> □ Sense of belonging/community
+> □ Training in activism skills
+> □ Having a flexible schedule
+> □ Support from family, friends, peers, partners 
+> □ Encouragement at work and union
+> □ Access to ongoing sources of info
+> □ Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
+> □ Other concrete things like _____________________________________________________________________
+> 
+> 4c. If no, what prevents you from participating? 
+>
+> □ Lack of financial resources
+> □ Job insecurity
+> □ No childcare   
+> □ Inflexible schedule/No time
+> □ No support from family, friends, peers, partners 
+> □ Institutional discouragement/limitations at work and union
+> □ No access to ongoing sources of info
+> □ Institutional discouragement/limitations at school
+> □ Surveillance
+> □ Police violence/threat
+> □ Consequence of arrests
+> □ Other ____________________________________________________________________________________
+> 
+
+
 > 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
 > 
 > □ Positive

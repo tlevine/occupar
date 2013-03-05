@@ -3,13 +3,12 @@ Life stresses mediate an association between negative perception of activism and
 
 
 ## To do
-If we weren't going to put this into some larger report, I would add
+Since we're making a blog post about this, I would add
 
-* How, when, where &c. the questionnaire was administered
+* A definition of "critical PAR"
 * The actual questionnaire questions
-* More summaries of the sort of people who took the questionnaire
 
-## Introduction
+## Research question
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
 mediated by life stresses.
@@ -27,21 +26,68 @@ mediated by life stresses.
                       | participation)|
                       +---------------+
 
-A questionnaire about OccupyCUNY was taken by a convenience sample of
-CUNY students.
-
 Preferably, we would have had each participant answer the same questions
 about her level of interest of participation (such as whether she agrees
 with the movement's views or whether she think the movement will have
 positive impact) and her life stresses (like working overtime) and her
 level of participation.
 
-The actual questionnaire asked one question about level of participation
-to all participants. The questions about interest in participation and
-about life stress were arranged such that people answered different
+### The questionnaire
+A questionnaire was developed using critical PAR as the methodological approach.
+It was based on the collective experiences of the researchers as CUNY students.
+Several pilot surveys were distributed on CUNY campuses and at the Free University, an activist event in Madison Square Park that occurred on May 1, 2012. This enabled researchers to revise and build the survey based on feedback from students. Insight from CUNY students was essential in the construction of the survey. Distribution of the final version of the survey began May 1, 2012 and continued until September 16, 2012. Surveys were collected on CUNY campuses, in classrooms, at CUNY activist events, and online.
+
+### Questionnaire distribution
+Researchers made contact on various CUNY campuses with professors who might be willing to distribute surveys to students during class time. An effort was made to ensure that the various types of CUNY campuses were included in the study (i.e. community colleges, senior colleges, etc) as well as various types of classes (day classes, night classes, and summer classes). If professors responded positively, a time was arranged during class when researchers could distribute surveys. Surveys
+were distributed to children’s studies classes at Brooklyn College, sociology classes at Hunter College, psychology classes at LaGuardia, research methods classes at the CUNY Graduate Center, classes at Medgar Evers college, and classes at the School of Professional Studies. A researcher was present in each classroom to oversee the completion of surveys and collect them. Researchers gave participants a short description of the survey, indicating that researchers were CUNY students interested
+in studying activism on CUNY campuses. Anonymity of participants was assured. Consent from participants was obtained verbally and they were given about ten minutes to complete the survey. One professor provided students with a link to fill out the survey online. The remaining surveys were distributed during activist events, including the Free University at Madison Square Park on May 1st, 2012. The Free University was an event where workshops and classes were set up by student activists
+in a public space (Madison Square Park) and open to the public. Many CUNY students attended the event, and some took the time to fill out the survey. Surveys were also collected at the CUNY Graduate Center general assembly, which is a student activist event where students meet to discuss issues and organize. Surveys were also distributed in the Hunter College cafeteria and student lounge, as well as at a student speak-out activist event to students who were willing to complete them,. In
+these cases, researchers gave participants ten minutes to complete the survey and acquired verbal consent. When researchers obtained a substantial number of surveys from a diverse group of CUNY campuses, data collection ceased. A code book for the survey was created, and all researchers participated in data entry, and eventually compiled all entered data into one Excel spreadsheet.
+
+## The question at hand
+The questionnaire asked one question about level of participation
+to all participants (question 8).
+
+> 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
+>
+> □ Yes, and I want to participate again because ______________________________________________________
+> □ Yes, but I do not want to participate again because _______________________________________________
+> □ No, and I will not participate because _________________________________________________________
+> □ No. I would like to participate but _________________________________________________________
+
+The questions about interest in participation (question 7) and
+about life stress (question 4) were arranged such that people answered different
 questions depending on whether they had previously participated in
 OccupyCUNY, which is quite related to their level of participation
-in activism. We thus had to separate the analysis by whether people had
+in activism.
+
+> 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
+> 
+> □ Positive
+> □ Negative
+> □ Ambivalent/ mixed feelings  
+> □ I don’t know much about it
+> □ I don’t have an opinion
+> 
+> b. I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> □ It opens a dialog about privatization of public higher education 
+> □ It is led by students for students   
+> □ I feel a part of a movement
+> □ It represents common issues faced by the majority of the population
+> □ It uses a democratic process  
+> □ It uses nonviolent methods
+> □ It uses direct action
+> □ Other (please specify) _____________________________________________________________________
+> 
+> c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> □ It is not effective
+> □ It does not deal with issues that concern me
+> □ It is unfocused, and does not have a coherent message
+> □ It is disruptive to classes 
+> □ Other (please specify) _____________________________________________________________________
+
+
+We thus had to separate the analysis by whether people had
 previously participated in OccupyCUNY.
 
 There wasn't much separation by level of participation within the
@@ -65,7 +111,7 @@ described above.
                       +---------------+
                         (question 4c)
 
-## Variables
+### Variables
 The questionnaire requested that question 4c only be answered by people who had
 answered with one of the two "No" responses to question 8, so we used only the
 subset of the data for which question 8 was one of these no responses. We thus
@@ -87,6 +133,13 @@ and some negative perception of activism; if these names bother you, mentally
 switch the "has" to "has more".
 
 ## Results
+
+This sample consisted of 304 current students attending various CUNY campuses. The survey was distributed on a total of twelve CUNY campuses, mostly from Hunter College (29% of sample), Brooklyn College (19%), Medgar Evers College (16%), Laguardia Community College (13%), and the Graduate Center (10%). The remaining CUNY schools include the School of Professional Studies (5%), Baruch College (1.6%), John Jay College of Criminal Justice (.7%), Borough of Manhattan Community College
+(.3%), City College of New York (.3%), Lehman College (.3%), and Queens College (.3%). Several participants did not provide their campus name (5%). Students were pursuing various degrees, most commonly a Bachelors degree (60%), followed by Associates (13%), Doctorate (10%), Masters (5%), Certificate (1%), or Non-degree seeking students (1%), and 11% were unknown. When asked for their gender, the majority of participants  identified as female (67.4%), while 27% were male, 2% were queer, and
+3% did not include their answer in this portion of the survey. Official records state that CUNY students are 58% female and 42% male (CUNY Office of Institutional Research and Assessment, 2011), although it should be noted they do not include alternative gender categories. It also states that 28.2% of CUNY students are age 25 or older. The ages of this sample ranged from 18 to 58, with 50% of participants between the ages of 21 and 29. The average age of this sample was 26.5. The sample
+was fairly representative of the CUNY student body. 
+
+### 
 We have two binary independent variables, so $$2^2 = 4$$ different combinations.
 For our sample, here are the proportions of people within each group who said
 "never" (rather than "no, ... but").
@@ -293,3 +346,7 @@ current and potential activists who have more life stresses.
 People who are trying to suppress activism should focus on people with
 more life stresses or should try to make the lives of potential and
 current activists more stressful.
+
+## The research team
+The research team was initially composed of twelve individuals, including four CUNY undergraduate students, seven CUNY graduate students, and one alumnus. Most individuals on the research team had previous experience as student activists addressing issues at CUNY schools.  The group met consistently from February, 2012 to May, 2012 in order to develop a survey designed to find the supports and barriers to student activism on CUNY campuses. During this time, one undergraduate student and one graduate student dropped out of the study. The research team had ten members when the survey was finalized.
+

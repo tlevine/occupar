@@ -1,5 +1,7 @@
 Life stresses mediate an association between negative perception of activism and a decision never to participate
 ======
+Thomas Levine and Mimiko Watanabe
+
 
 
 <style>

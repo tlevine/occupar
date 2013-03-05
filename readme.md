@@ -15,7 +15,6 @@ ul {
 Since we're making a blog post about this, I would add
 
 * A definition of "critical PAR"
-* The actual questionnaire questions
 
 ## Research question
 We wanted to test whether a desire to participate in activim was associated
@@ -52,6 +51,13 @@ were distributed to children’s studies classes at Brooklyn College, sociology 
 in studying activism on CUNY campuses. Anonymity of participants was assured. Consent from participants was obtained verbally and they were given about ten minutes to complete the survey. One professor provided students with a link to fill out the survey online. The remaining surveys were distributed during activist events, including the Free University at Madison Square Park on May 1st, 2012. The Free University was an event where workshops and classes were set up by student activists
 in a public space (Madison Square Park) and open to the public. Many CUNY students attended the event, and some took the time to fill out the survey. Surveys were also collected at the CUNY Graduate Center general assembly, which is a student activist event where students meet to discuss issues and organize. Surveys were also distributed in the Hunter College cafeteria and student lounge, as well as at a student speak-out activist event to students who were willing to complete them,. In
 these cases, researchers gave participants ten minutes to complete the survey and acquired verbal consent. When researchers obtained a substantial number of surveys from a diverse group of CUNY campuses, data collection ceased. A code book for the survey was created, and all researchers participated in data entry, and eventually compiled all entered data into one Excel spreadsheet.
+
+### Representativeness of the questionnaire
+This sample consisted of 304 current students attending various CUNY campuses. The survey was distributed on a total of twelve CUNY campuses, mostly from Hunter College (29% of sample), Brooklyn College (19%), Medgar Evers College (16%), Laguardia Community College (13%), and the Graduate Center (10%). The remaining CUNY schools include the School of Professional Studies (5%), Baruch College (1.6%), John Jay College of Criminal Justice (.7%), Borough of Manhattan Community College
+(.3%), City College of New York (.3%), Lehman College (.3%), and Queens College (.3%). Several participants did not provide their campus name (5%). Students were pursuing various degrees, most commonly a Bachelors degree (60%), followed by Associates (13%), Doctorate (10%), Masters (5%), Certificate (1%), or Non-degree seeking students (1%), and 11% were unknown. When asked for their gender, the majority of participants  identified as female (67.4%), while 27% were male, 2% were queer, and
+3% did not include their answer in this portion of the survey. Official records state that CUNY students are 58% female and 42% male (CUNY Office of Institutional Research and Assessment, 2011), although it should be noted they do not include alternative gender categories. It also states that 28.2% of CUNY students are age 25 or older. The ages of this sample ranged from 18 to 58, with 50% of participants between the ages of 21 and 29. The average age of this sample was 26.5.
+
+Based on all this, the sample seems fairly representative of the CUNY student body. 
 
 ## The question at hand
 The questionnaire asked one question about level of participation
@@ -179,17 +185,9 @@ confusing to talk about, but both groups obviously have both life stresses
 and some negative perception of activism; if these names bother you, mentally
 switch the "has" to "has more".
 
-## Results
-
-This sample consisted of 304 current students attending various CUNY campuses. The survey was distributed on a total of twelve CUNY campuses, mostly from Hunter College (29% of sample), Brooklyn College (19%), Medgar Evers College (16%), Laguardia Community College (13%), and the Graduate Center (10%). The remaining CUNY schools include the School of Professional Studies (5%), Baruch College (1.6%), John Jay College of Criminal Justice (.7%), Borough of Manhattan Community College
-(.3%), City College of New York (.3%), Lehman College (.3%), and Queens College (.3%). Several participants did not provide their campus name (5%). Students were pursuing various degrees, most commonly a Bachelors degree (60%), followed by Associates (13%), Doctorate (10%), Masters (5%), Certificate (1%), or Non-degree seeking students (1%), and 11% were unknown. When asked for their gender, the majority of participants  identified as female (67.4%), while 27% were male, 2% were queer, and
-3% did not include their answer in this portion of the survey. Official records state that CUNY students are 58% female and 42% male (CUNY Office of Institutional Research and Assessment, 2011), although it should be noted they do not include alternative gender categories. It also states that 28.2% of CUNY students are age 25 or older. The ages of this sample ranged from 18 to 58, with 50% of participants between the ages of 21 and 29. The average age of this sample was 26.5. The sample
-was fairly representative of the CUNY student body. 
-
-### 
-We have two binary independent variables, so $$2^2 = 4$$ different combinations.
-For our sample, here are the proportions of people within each group who said
-"never" (rather than "no, ... but").
+## Analysis
+For our sample, here are the proportions of people within each of the four groups
+who said "never" (rather than "no, ... but").
 
 
 ```

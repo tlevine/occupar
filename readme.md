@@ -64,7 +64,7 @@ Based on all this, the sample seems fairly representative of the CUNY student bo
 The questionnaire asked one question about level of participation
 to all participants (question 8).
 
-> 8. Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
+> **8** Have you ever attended an event on Occupy CUNY/ activism for higher education (e.g., a march, a talk, a general assembly/GA)?
 >
 > * Yes, and I want to participate again because ________
 > * Yes, but I do not want to participate again because ________
@@ -77,14 +77,14 @@ questions depending on whether they had previously participated in
 OccupyCUNY, which is quite related to their level of participation
 in activism.
 
-> 3. Are you participating in activism that addresses issues in higher education?  
+> **3** Are you participating in activism that addresses issues in higher education?  
 >
 > * Yes (go to 4a and 4b)
 > * No  (go to 4c)
 > 
-> 4a. If Yes, what motivates you?
+> **4a** If Yes, what motivates you? ________
 > 
-> 4b. If yes, what enables you to participate? 
+> **4b** If yes, what enables you to participate? 
 >
 > * Financial resources
 > * Job security
@@ -98,7 +98,7 @@ in activism.
 > * Encouragement at school (e.g., Class credits, teacher support, teacher allows me to miss class, inclusion in my academic research)
 > * Other concrete things like _______
 > 
-> 4c. If no, what prevents you from participating? 
+> **4c** If no, what prevents you from participating? 
 >
 > * Lack of financial resources
 > * Job insecurity
@@ -115,7 +115,7 @@ in activism.
 > 
 
 
-> 7a. Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
+> **7a** Overall, how do you feel about Occupy CUNY/ activism for higher education? Check only one. 
 > 
 > * Positive
 > * Negative
@@ -123,7 +123,7 @@ in activism.
 > * I don’t know much about it
 > * I don’t have an opinion
 > 
-> b. I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> **7b** I feel positive about Occupy CUNY/ activism for higher education because: (Check all that apply.)
 > * It opens a dialog about privatization of public higher education 
 > * It is led by students for students   
 > * I feel a part of a movement
@@ -133,7 +133,7 @@ in activism.
 > * It uses direct action
 > * Other (please specify) ________
 > 
-> c. I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
+> **7c** I feel negative about Occupy CUNY/ activism for higher education because: (Check all that apply.)
 > * It is not effective
 > * It does not deal with issues that concern me
 > * It is unfocused, and does not have a coherent message

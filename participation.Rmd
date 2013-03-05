@@ -11,6 +11,11 @@ If we weren't going to put this into some larger report, I would add
 * More summaries of the sort of people who took the questionnaire
 
 ## Introduction
+
+A questionnaire about OccupyCUNY was taken by a convenience sample of
+CUNY students.
+
+## Methods
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
 mediated by life stresses.
@@ -27,9 +32,6 @@ mediated by life stresses.
                       | (Barriers to  |
                       | participation)|
                       +---------------+
-
-A questionnaire about OccupyCUNY was taken by a convenience sample of
-CUNY students.
 
 Preferably, we would have had each participant answer the same questions
 about her level of interest of participation (such as whether she agrees
@@ -66,7 +68,7 @@ described above.
                       +---------------+
                         (question 4c)
 
-## Variables
+### Variables
 The questionnaire requested that question 4c only be answered by people who had
 answered with one of the two "No" responses to question 8, so we used only the
 subset of the data for which question 8 was one of these no responses. We thus

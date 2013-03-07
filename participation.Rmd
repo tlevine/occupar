@@ -17,11 +17,6 @@ ul {
 }
 li:before { content: "□ "; }
 </style>
-## To do
-Since we're making a blog post about this, I would add
-
-* A definition of "critical PAR"
-
 ## Research question
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
@@ -47,9 +42,11 @@ positive impact) and her life stresses (like working overtime) and her
 level of participation.
 
 ## The questionnaire
-A questionnaire was developed using critical PAR as the methodological approach.
+A questionnaire was developed using critical PAR [*] as the methodological approach.
 It was based on the collective experiences of the researchers as CUNY students.
 Several pilot surveys were distributed on CUNY campuses and at the Free University, an activist event in Madison Square Park that occurred on May 1, 2012. This enabled researchers to revise and build the survey based on feedback from students. Insight from CUNY students was essential in the construction of the survey. Distribution of the final version of the survey began May 1, 2012 and continued until September 16, 2012. Surveys were collected on CUNY campuses, in classrooms, at CUNY activist events, and online.
+
+<small>[*] Torre, M. E. and Fine, M. (2011), A Wrinkle in Time: Tracing a Legacy of Public Science through Community Self-Surveys and Participatory Action Research. Journal of Social Issues, 67: 106–121. doi: 10.1111/j.1540-4560.2010.01686.x</small>
 
 ### Questionnaire distribution
 Researchers made contact on various CUNY campuses with professors who might be willing to distribute surveys to students during class time. An effort was made to ensure that the various types of CUNY campuses were included in the study (i.e. community colleges, senior colleges, etc) as well as various types of classes (day classes, night classes, and summer classes). If professors responded positively, a time was arranged during class when researchers could distribute surveys. Surveys
@@ -273,9 +270,16 @@ participate, regardless of the level of life stress, and having life stress
 makes this difference larger.
 
 ## Ideas for future study
-We ignored which boxes people checked for questions 4c and 7c. It may be
+It would be nice to pin down our nebulous concepts of life stress and negative perception.
+Rather than qualifying the sorts of stresses and perceptions, we simply ignored which boxes people checked for questions 4c and 7c. It may be
 informative to see how the particular box that was checked relates to
 the question 8 result or other results.
+
+We could also test the same relationship with the larger and more general
+[Occupy Research General Survey](http://www.occupyresearch.net/orgs/).
+It contains questions similar to the ones from the OccuPAR questionnaire
+that we used as indicators of life stress, perception of activism and
+participation in activism, but it has more responses from a wider movement.
 
 ## Relevance
 The conclusion of this study can be applied to the marketing surrounding

@@ -1,4 +1,4 @@
-Life stresses mediate an association between negative perception of activism and a decision never to participate
+external stresses mediate an association between negative perception of activism and a decision never to participate
 ======
 Thomas Levine and Mimiko Watanabe
 
@@ -17,29 +17,29 @@ li:before { content: "□ "; }
 ## Research question
 We wanted to test whether a desire to participate in activim was associated
 with increased participation in activism and whether this relationship was
-mediated by life stresses.
+mediated by external stresses.
 
-    +---------------+                   +---------------+
-    | Interest in   |                   | Participation |
-    | participating |   ------------>   | in activism   |
-    | in activism   |                   |               |
-    +---------------+        / \        +---------------+
-                              | 
-                      
-                      +---------------+
-                      | Life stress   |
-                      | (Barriers to  |
-                      | participation)|
-                      +---------------+
+    +-----------------+                   +-----------------+
+    | Interest in     |                   | Participation   |
+    | participating   |   ------------>   | in activism     |
+    | in activism     |                   |                 |
+    +-----------------+        / \        +-----------------+
+                                | 
+                        
+                       +-----------------+
+                       | external stress |
+                       | (Barriers to    |
+                       | participation)  |
+                       +-----------------+
 
 Preferably, we would have had each participant answer the same questions
 about her level of interest of participation (such as whether she agrees
 with the movement's views or whether she think the movement will have
-positive impact) and her life stresses (like working overtime) and her
+positive impact) and her external stresses (like working overtime) and her
 level of participation.
 
 ## The questionnaire
-A questionnaire was developed using critical PAR [*] as the methodological approach.
+A questionnaire was developed using critical PAR[*] as the methodological approach.
 It was based on the collective experiences of the researchers as CUNY students.
 Several pilot surveys were distributed on CUNY campuses and at the Free University, an activist event in Madison Square Park that occurred on May 1, 2012. This enabled researchers to revise and build the survey based on feedback from students. Insight from CUNY students was essential in the construction of the survey. Distribution of the final version of the survey began May 1, 2012 and continued until September 16, 2012. Surveys were collected on CUNY campuses, in classrooms, at CUNY activist events, and online.
 
@@ -71,7 +71,7 @@ to all participants (question 8).
 > * No. I would like to participate but ________
 
 The questions about interest in participation (question 7) and
-about life stress (question 4) were arranged such that people answered different
+about external stress (question 4) were arranged such that people answered different
 questions depending on whether they had previously participated in
 OccupyCUNY, which is quite related to their level of participation
 in activism.
@@ -153,19 +153,19 @@ analysis for the respondents who said they had not participated in
 OccupyCUNY. This led to a reversed framing of the relationship 
 described above.
 
-    +---------------+                   +---------------+
-    | Negative atti-|                   | Decisiveness  |
-    | tude towards  |   ------------>   | about not     |
-    | activism      |                   | participating |
-    +---------------+        / \        +---------------+
-      (question 7c)           |           (question 8)
+    +-----------------+                   +-----------------+
+    | Negative atti-  |                   | Decisiveness    |
+    | tude towards    |   ------------>   | about not       |
+    | activism        |                   | participating   |
+    +-----------------+        / \        +-----------------+
+      (question 7c)             |            (question 8)
                       
-                      +---------------+
-                      | Life stress   |
-                      | (Barriers to  |
-                      | participation)|
-                      +---------------+
-                        (question 4c)
+                       +-----------------+
+                       | external stress |
+                       | (Barriers to    |
+                       | participation)  |
+                       +-----------------+
+                          (question 4c)
 
 ### Variables
 The questionnaire requested that question 4c only be answered by people who had
@@ -177,14 +177,14 @@ had not participated but (would like to ?).
 
 For both questions 4c and 7c, almost people checked either zero or one box.
 For simplicity, we simply checked whether at least one of the respective
-groups of check marks was checked. Thus, our life stress variable,
-`has.life.stress`, was true if at least one of question 4c's boxes was checked
+groups of check marks was checked. Thus, our external stress variable,
+`has.external.stress`, was true if at least one of question 4c's boxes was checked
 and false if none was checked. Similarly, our variable for negative perception
 of activism, `has.negative.perception`, was true if at least one of 7c's
 boxes was checked and false if none were.
 
 We chose variable names that start with the word "has" so that it would be less
-confusing to talk about, but both groups obviously have both life stresses
+confusing to talk about, but both groups obviously have both external stresses
 and some negative perception of activism; if these names bother you, mentally
 switch the "has" to "has more".
 
@@ -194,18 +194,18 @@ who said "never" (rather than "no, ... but").
 
 
 ```
-  has.life.stress has.negative.perception p.no.never
-1             Yes                     Yes        40%
-2             Yes                      No      32.4%
-3              No                     Yes      55.6%
-4              No                      No       5.7%
+  has.external.stress has.negative.perception p.no.never
+1                 Yes                     Yes        40%
+2                 Yes                      No      32.4%
+3                  No                     Yes      55.6%
+4                  No                      No       5.7%
 ```
 
 
 ### Logistic regression
 We fit two logistic regressions and compared them with a likelihood ratio test.
 As a null model, we fit the simple logistic regression of `no.never` as a
-function of `has.negative perception`, ignorant of `has.life.stress`.
+function of `has.negative perception`, ignorant of `has.external.stress`.
 
 
 ```
@@ -239,13 +239,13 @@ The `has.negative.perception` coefficient is significantly different from zero,
 indicating that negative perception is associated with participation.
 
 Then we fit a logistic regression for the full relationship described above,
-which adds the `has.life.stress` term.
+which adds the `has.external.stress` term.
 
 
 ```
 
 Call:
-glm(formula = no.never ~ has.life.stress * has.negative.perception, 
+glm(formula = no.never ~ has.external.stress * has.negative.perception, 
     family = "binomial", data = o)
 
 Deviance Residuals: 
@@ -253,11 +253,11 @@ Deviance Residuals:
 -1.274  -0.885  -0.885   1.354   2.393  
 
 Coefficients:
-                                        Estimate Std. Error z value Pr(>|z|)    
-(Intercept)                               -2.803      0.728   -3.85  0.00012 ***
-has.life.stress                            2.068      0.757    2.73  0.00627 ** 
-has.negative.perception                    3.027      0.990    3.06  0.00224 ** 
-has.life.stress:has.negative.perception   -2.697      1.048   -2.57  0.01007 *  
+                                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                   -2.803      0.728   -3.85  0.00012 ***
+has.external.stress                            2.068      0.757    2.73  0.00627 ** 
+has.negative.perception                        3.027      0.990    3.06  0.00224 ** 
+has.external.stress:has.negative.perception   -2.697      1.048   -2.57  0.01007 *  
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
@@ -272,12 +272,12 @@ Number of Fisher Scoring iterations: 5
 
 
 All of the non-intercept coefficients significantly different from zero,
-indicating that negative perception and life stress, separately, are both
+indicating that negative perception and external stress, separately, are both
 associated with participation and that the associations are different
-when combined. Specifically, someone with just negative perception or life
+when combined. Specifically, someone with just negative perception or external stress
 has higher odds of saying "never" than someone with neither, but the odds
 are somewhere in between for someone who has both negative perception and
-life stress.
+external stress.
 
 Finally, we compared the two with a likelihood ratio test.
 
@@ -289,7 +289,7 @@ Chi-squared 2 d.f. =  12.88 , P value =  0.001594
 
 
 The likelihood ratio test finds that the data are significantly more likely
-given the full model than the null model, suggesting, again, that life stress
+given the full model than the null model, suggesting, again, that external stress
 significantly mediates the relationship between negative perception and
 participation in activism.
 
@@ -324,7 +324,7 @@ F-statistic:  5.6 on 1 and 205 DF,  p-value: 0.0188
 ```
 
 Call:
-lm(formula = no.never ~ has.life.stress * has.negative.perception, 
+lm(formula = no.never ~ has.external.stress * has.negative.perception, 
     data = o)
 
 Residuals:
@@ -332,11 +332,11 @@ Residuals:
 -0.556 -0.324 -0.324  0.600  0.943 
 
 Coefficients:
-                                        Estimate Std. Error t value Pr(>|t|)   
-(Intercept)                               0.0571     0.0759    0.75   0.4526   
-has.life.stress                           0.2669     0.0874    3.06   0.0026 **
-has.negative.perception                   0.4984     0.1679    2.97   0.0034 **
-has.life.stress:has.negative.perception  -0.4225     0.1836   -2.30   0.0224 * 
+                                            Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                                   0.0571     0.0759    0.75   0.4526   
+has.external.stress                           0.2669     0.0874    3.06   0.0026 **
+has.negative.perception                       0.4984     0.1679    2.97   0.0034 **
+has.external.stress:has.negative.perception  -0.4225     0.1836   -2.30   0.0224 * 
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
 
@@ -349,7 +349,7 @@ F-statistic: 5.36 on 3 and 203 DF,  p-value: 0.00142
 Analysis of Variance Table
 
 Model 1: no.never ~ has.negative.perception
-Model 2: no.never ~ has.life.stress * has.negative.perception
+Model 2: no.never ~ has.external.stress * has.negative.perception
   Res.Df RSS Df Sum of Sq    F Pr(>F)   
 1    205  43                            
 2    203  41  2      2.07 5.13 0.0067 **
@@ -363,10 +363,10 @@ We intuitively suspect a particular direction of causality and have fit models
 that suggest that direction, but the questionnaire gives us no formal idea
 about the direction of causality; for example, it could be that the choice never
 to participate leads to overstatement of reasons against participation and
-of life stresses.
+of external stresses.
 
 ## Conclusion
-Life stresses mediate an association between negative perception of activism
+external stresses mediate an association between negative perception of activism
 and a decision never to participate in Occupy CUNY. For interpreting the
 direction of this relationship, the following plot is helpful.
 
@@ -374,11 +374,11 @@ direction of this relationship, the following plot is helpful.
 
 
 Negative perception makes people more likely to say they will "never"
-participate, regardless of the level of life stress, and having life stress
+participate, regardless of the level of external stress, and having external stress
 makes this difference larger.
 
 ## Ideas for future study
-It would be nice to pin down our nebulous concepts of life stress and negative perception.
+It would be nice to pin down our nebulous concepts of external stress and negative perception.
 Rather than qualifying the sorts of stresses and perceptions, we simply ignored which boxes people checked for questions 4c and 7c. It may be
 informative to see how the particular box that was checked relates to
 the question 8 result or other results.
@@ -386,20 +386,20 @@ the question 8 result or other results.
 We could also test the same relationship with the larger and more general
 [Occupy Research General Survey](http://www.occupyresearch.net/orgs/).
 It contains questions similar to the ones from the OccuPAR questionnaire
-that we used as indicators of life stress, perception of activism and
+that we used as indicators of external stress, perception of activism and
 participation in activism, but it has more responses from a wider movement.
 
 ## Relevance
 The conclusion of this study can be applied to the marketing surrounding
 activism. Aside from trying to influence people's perception of the
-value of activism, marketing should consider activists' life stresses.
+value of activism, marketing should consider activists' external stresses.
 
 People who are trying to recruit and sustain activists should
-focus on people with fewer life stresses or should provide support to
-current and potential activists who have more life stresses.
+focus on people with fewer external stresses or should provide support to
+current and potential activists who have more external stresses.
 
 People who are trying to suppress activism should focus on people with
-more life stresses or should try to make the lives of potential and
+more external stresses or should try to make the lives of potential and
 current activists more stressful.
 
 ## The research team

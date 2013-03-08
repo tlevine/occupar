@@ -1,4 +1,4 @@
-external stresses mediate an association between negative perception of activism and a decision never to participate
+External stresses mediate an association between negative perception of activism and a decision never to participate
 ======
 Thomas Levine and Mimiko Watanabe
 
@@ -15,7 +15,7 @@ ul {
 li:before { content: "□ "; }
 </style>
 ## Research question
-We wanted to test whether a desire to participate in activim was associated
+We wanted to test whether a desire to participate in activism was associated
 with increased participation in activism and whether this relationship was
 mediated by external stresses.
 
@@ -27,7 +27,7 @@ mediated by external stresses.
                                 | 
                         
                        +-----------------+
-                       | external stress |
+                       | External stress |
                        | (Barriers to    |
                        | participation)  |
                        +-----------------+
@@ -172,7 +172,7 @@ described above.
       (question 7c)             |            (question 8)
                       
                        +-----------------+
-                       | external stress |
+                       | External stress |
                        | (Barriers to    |
                        | participation)  |
                        +-----------------+
@@ -377,7 +377,7 @@ to participate leads to overstatement of reasons against participation and
 of external stresses.
 
 ## Conclusion
-external stresses mediate an association between negative perception of activism
+External stresses mediate an association between negative perception of activism
 and a decision never to participate in Occupy CUNY. For interpreting the
 direction of this relationship, the following plot is helpful.
 

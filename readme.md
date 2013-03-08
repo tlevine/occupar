@@ -32,11 +32,15 @@ mediated by external stresses.
                        | participation)  |
                        +-----------------+
 
-Preferably, we would have had each participant answer the same questions
-about her level of interest of participation (such as whether she agrees
-with the movement's views or whether she think the movement will have
-positive impact) and her external stresses (like working overtime) and her
-level of participation.
+When we discuss "interest in participation", we are referring to more
+fundamental drivers in considering whether to participate, such as
+agreement with the goals of the activism or belief that the activism
+will be effective.
+
+"External stresses" are secondary, exogenous considerations that might
+prevent participants from participating in activism that they would
+support in concept. For example, one strong external stress would
+be working multiple jobs.
 
 ## The questionnaire
 A questionnaire was developed using critical PAR[*] as the methodological approach.
@@ -60,6 +64,13 @@ This sample consisted of 304 current students attending various CUNY campuses. T
 Based on all this, the sample seems fairly representative of the CUNY student body. 
 
 ## Approach
+Preferably, we would have had each participant answer the same questions
+about her level of interest of participation (such as whether she agrees
+with the movement's views or whether she think the movement will have
+positive impact) and her external stresses (like working overtime) and her
+level of participation. The questionnaire wasn't quite like this, so
+we had to adapt the questions somewhat.
+
 The questionnaire asked one question about level of participation
 to all participants (question 8).
 
